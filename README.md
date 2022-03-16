@@ -23,7 +23,7 @@ npm install
 ```
 
 ### Run the project on localhost
-To run the project on localhost make sure you are in the correct folder and run
+To run the project on localhost make sure you are in the correct folder (onboarding-portal) and run
 ```
 npm start
 ```
