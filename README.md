@@ -6,7 +6,7 @@ This project utilizes both ReactJS and NodeJS to create an application for submi
 ## Prerequisites
 For this project to work you need to install node
 
-Download node [here](https://nodejs.org/en/download/) and check if it's been installed in the terminal:
+Download node **[here](https://nodejs.org/en/download/)** and check if it's been installed in the terminal:
 ```
 node -v
 ```
