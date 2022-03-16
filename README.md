@@ -18,8 +18,13 @@ npm -v
 ## Set up 
 You need to install all the node modules in the project 
 ```
-**cd** onboarding-portal
+cd onboarding-portal
 npm install 
 ```
 
-### Run the project in localhost
+### Run the project on localhost
+To run the project on localhost make sure you are in the correct folder and run
+```
+npm start
+```
+This will start the react application in the web browser
