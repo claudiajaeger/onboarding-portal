@@ -18,7 +18,7 @@ npm -v
 ## Set up 
 You need to install all the node modules in the project 
 ```
-cd onboarding-portal
+![#1589F0]cd`#1589F0` onboarding-portal
 npm install 
 ```
 
