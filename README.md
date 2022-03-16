@@ -21,6 +21,10 @@ You need to install all the node modules in the project
 cd onboarding-portal
 npm install 
 ```
+Install React Router DOM in the terminal:
+```
+npm i react-router-dom
+```
 
 ### Run the project on localhost
 To run the project on localhost make sure you are in the correct folder (onboarding-portal) and run
