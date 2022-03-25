@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import Navbar from "./components/Navbar";
+import RadioButton from "./components/RadioButton";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import {Button} from "./components/Button";
 import Container from 'react-bootstrap/Container'
@@ -34,10 +35,15 @@ function App() {
               <Col>
                 <h1>Hello World</h1>
                 <form>
-                  <label>Enter candidate's name: </label>
+                  <label className="submit-name">Enter candidate's name: </label>
                   <input type="text"/>
-                  {button && <Button buttonStyle="btn--outline">Submit</Button>}
+                  {button && <Button className="submit-name" buttonStyle="btn--outline">Submit</Button>}
+                  <br/>
+                  <label className="submit-mail">Enter candidate's e-mail: </label>
+                  <input type="email"/>
+                  {button && <Button className="submit-mail" buttonStyle="btn--outline">Submit</Button>}
                 </form>
+                <RadioButton/>
               </Col>
             </Row>
           </Container>
