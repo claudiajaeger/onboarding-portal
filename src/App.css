@@ -5,6 +5,11 @@
   font-family: 'PT Sans', sans-serif;
 }
 
+.container-fluid {
+  margin: 1rem;
+  text-align: center;
+}
+
 .home,
 .test {
   display: flex;
