@@ -11,6 +11,7 @@ import './App.css';
 function App() {
   const [button, setButton] = useState(true);
 
+  //function that resizes and display new size of button on mobile
   const showButton = () => {
       if(window.innerWidth <= 960) {
           setButton(false)
@@ -18,11 +19,13 @@ function App() {
           setButton(true);
       }
   };
+  //handles the button on mobile to not show button anymore in mobile/tablet on refresh
   useEffect(() => {
       showButton();
   }, []);
 
-  window.addEventListener("resize", showButton);
+  window.addEventListener("resize", showButton); //resize button event
+
   return (
     <Router>
       <div className="App">
@@ -34,10 +37,12 @@ function App() {
             <Row>
               <Col>
                 <h1>Hello World</h1>
+                {/* Form that handles submit by input of name and email  */}
                 <form>
-                  <label className="submit-name">Enter candidate's name: </label>
+                  <label className="name">Enter candidate's name: </label>
                   <input type="text"/>
-                  {button && <Button className="submit-name" buttonStyle="btn--outline">Submit</Button>}
+                  {/* If button is true return button component and button style */}
+                  {button && <Button className="name" buttonStyle="btn--outline">Submit</Button>}
                   <br/>
                   <label className="submit-mail">Enter candidate's e-mail: </label>
                   <input type="email"/>
