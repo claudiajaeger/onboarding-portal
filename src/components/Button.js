@@ -15,9 +15,9 @@ export const Button = ({
     buttonStyle, 
     buttonSize
 }) => {
-    // If button component is true give style if false give value 0 by default (btn--primary)
+    // If button component is true give style, if false give value 0 by default (btn--primary)
     const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
-    // If button component is true give size if false give value 0 by default (btn--medium)
+    // If button component is true give size, if false give value 0 by default (btn--medium)
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
     return (

@@ -7,7 +7,7 @@ class RadioButton extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            selectedOption: "Swedish Citizen" //if swedish citizen is selected other options should be deselected
+            selectedOption: "Swedish Citizen" //if option is selected other options should be deselected
         };
     }
     // Handles the event change when user is selecting different radiobuttons
